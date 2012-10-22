@@ -1,0 +1,9 @@
+<?php
+
+  class bpoc_contest_handler_email extends views_handler_field
+  {
+    function render($values) {
+      return 'email address';
+    }
+  }
+
