@@ -35,13 +35,12 @@ function bpoc_photo_contest_imagecache_default_presets() {
       'actions' => array(
         '0' => array(
           'weight' => '0',
-          'module' => 'imagefield_focus',
-          'action' => 'imagefield_focus_scale_and_crop',
+          'module' => 'imagecache',
+          'action' => 'imagecache_scale',
           'data' => array(
-            'width' => '160',
-            'height' => '120',
-            'strength' => 'high',
-            'fallback' => 'smartcrop',
+            'width' => '125',
+            'height' => '125',
+            'upscale' => 0,
           ),
         ),
       ),
